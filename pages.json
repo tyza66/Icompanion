@@ -1,0 +1,87 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+			
+		}
+	    ,{
+            "path" : "pages/xiaoshipin/xiaoshipin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shenghuo/shenghuo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gerenzhongxin/gerenzhongxin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wj/wj",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "首页",
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom",
+		"scrollIndicator":"none"
+	},
+	"tabBar": {
+			"selectedColor":"#FE5E00",
+			"list": [
+				{
+					"text": "首页",
+					"pagePath": "pages/index/index",
+					"iconPath":"static/icons/aa1.png",
+					"selectedIconPath":"static/icons/aa5.png"
+				},
+				{
+					"text": "小视频",
+					"pagePath": "pages/xiaoshipin/xiaoshipin",
+					"iconPath":"static/icons/aa2.png",
+					"selectedIconPath":"static/icons/aa5.png"
+				},
+				{
+					"text": "生活",
+					"pagePath": "pages/shenghuo/shenghuo",
+					"iconPath":"static/icons/aa3.png",
+					"selectedIconPath":"static/icons/aa7.png"
+				},
+				{
+					"text": "个人中心",
+					"pagePath": "pages/gerenzhongxin/gerenzhongxin",
+					"iconPath":"static/icons/aa4.png",
+					"selectedIconPath":"static/icons/aa8.png"
+				}
+			],
+			"backgroundColor":"#FDFDFD",
+			"fontSize":"20px",
+			"iconWidth":"20px"
+		}
+}
